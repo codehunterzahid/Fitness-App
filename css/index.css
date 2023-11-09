@@ -91,3 +91,59 @@ body{
     z-index: 10;
 }
 
+@media screen and (max-width: 400px){
+    .home{
+        height: 200vh;
+        padding: 5%;
+        padding-top: 40%;
+    }
+    .h-text{
+        width: 100%;
+    }
+    .h-btn1{
+        display: none;
+    }
+    .hero-img{
+        position: absolute;
+        top: 50%;
+        width: 250px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px){
+    .home{
+        height: 200vh;
+        padding: 5%;
+        padding-top: 20%;
+    }
+    .h-text{
+        width: 100%;
+    }
+    .h-btn1{
+        display: none;
+    }
+    .hero-img{
+        position: absolute;
+        top: 40%;
+        width: 80%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px){
+    .home{
+        height: 200vh;
+        padding: 5%;
+        padding-top: 20%;
+    }
+    .h-text{
+        text-align: center;
+        width: 100%;
+    }
+    .hero-img{
+        position: absolute;
+        top: 40%;
+        width: 60%;
+        padding-right: 20%;
+    }
+}
+
