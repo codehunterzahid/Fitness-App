@@ -15,7 +15,8 @@ body {
     text-decoration: none;
     color: #8351ff;
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navbar-top .nav-link:hover {
